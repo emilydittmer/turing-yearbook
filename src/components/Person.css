@@ -12,6 +12,17 @@
   max-width: 300px;
 }
 
-.name{
-  
+.name {
+  color: hsl(178, 42%, 46%);
+  font-weight: 700;
+  font-size: 1.75em;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.super {
+  font-weight: 700;
+  color: hsl(6, 81%, 61%);
 }

@@ -36,39 +36,52 @@ class Form extends Component {
 
   render(){
     return(
+      <div className='form'>
       <form>
-        <h3>Student Name:</h3>
-        <input 
-          type= "text"
-          placeholder= "Student Name"
-          value={this.state.name}
-          name="name"
-          onChange={event => {this.handleValueChange(event)}}
-        />
-        <h3>Student Quote:</h3>
-        <input 
-          type= "text"
-          placeholder= "Quote"
-          value={this.state.quote}
-          name="quote"
-          onChange={event => {this.handleValueChange(event)}}
-        />
-        <h3>Student Superlative:</h3>
-        <input 
-          type= "text"
-          placeholder= "Superlative"
-          value={this.state.superlative}
-          name="superlative"
-          onChange={event => {this.handleValueChange(event)}}
-        />
-        <h3>Add a photo:</h3>
-        <input 
-          type="file"
-          name="photo"
-          onChange={event => {this.handlePhotoChange(event.target.files[0])}}
-        />
-        <button onClick={event => this.submitNewStudent(event)}>Submit</button>
-          </form>
+        <div className='form-fields'>
+          <h3 className='form-key'>Student Name: </h3>
+          <input 
+            type= "text"
+            placeholder= "Student Name"
+            value={this.state.name}
+            name="name"
+            onChange={event => {this.handleValueChange(event)}}
+          />
+        </div>
+        <div className='form-fields'>
+          <h3 className='form-key'>Student Quote: </h3>
+          <input 
+            type= "text"
+            placeholder= "Quote"
+            value={this.state.quote}
+            name="quote"
+            onChange={event => {this.handleValueChange(event)}}
+          />
+        </div>
+        <div className='form-fields'>
+          <h3 className='form-key'>Student Superlative: </h3>
+          <input 
+            type= "text"
+            placeholder= "Superlative"
+            value={this.state.superlative}
+            name="superlative"
+            onChange={event => {this.handleValueChange(event)}}
+          />
+        </div>
+        <div className='form-fields'>
+          <h3 className='form-key'>Add a photo: </h3>
+          <input 
+            type="file"
+            name="photo"
+            onChange={event => {this.handlePhotoChange(event.target.files[0])}}
+          />
+        </div>
+        <br/>
+        <div className='form-fields'>
+          <button onClick={event => this.submitNewStudent(event)}>Submit</button>
+        </div>
+      </form>
+      </div>
     )
   }
 }
