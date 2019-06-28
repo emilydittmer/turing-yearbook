@@ -15,7 +15,9 @@ Once you have cloned the repo, install the library dependencies. Run:
 npm install
 ```
 ## Screenshots
-
+![Imgur](https://i.imgur.com/kIu43m3.png)
+![Imgur](https://i.imgur.com/kIu43m3.png)
+![Imgur](https://i.imgur.com/tsIgcsN.png)
 
 ## Learning Goals
 
