@@ -16,7 +16,7 @@ npm install
 ```
 ## Screenshots
 ![Imgur](https://i.imgur.com/kIu43m3.png)
-![Imgur](https://i.imgur.com/kIu43m3.png)
+![Imgur](https://i.imgur.com/tQRvvZi.png)
 ![Imgur](https://i.imgur.com/tsIgcsN.png)
 
 ## Learning Goals
