@@ -31,9 +31,11 @@ input{
 button{
   background-color: hsl(29, 74%, 59%);
   color: #fff;
-  height: 20px;
+  height: 50px;
   width: 200px;
   margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 button:hover{

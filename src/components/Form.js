@@ -71,6 +71,7 @@ class Form extends Component {
         <div className='form-fields'>
           <h3 className='form-key'>Add a photo: </h3>
           <input 
+            className="photo-input"
             type="file"
             name="photo"
             onChange={event => {this.handlePhotoChange(event.target.files[0])}}
