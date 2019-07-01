@@ -12,17 +12,17 @@ class Form extends Component {
     }
   }
   
-  handleValueChange = event => {
+  handleValueChange = (event) => {
     this.setState({ [event.target.name] : event.target.value })
   }
 
-  handlePhotoChange = event => {
+  handlePhotoChange = (event) => {
       this.setState({
         photo: URL.createObjectURL(event)
       })
   }
 
-  submitNewStudent = event => {
+  submitNewStudent = (event) => {
     event.preventDefault();
 
     const newStudent = {...this.state, id: Date.now()}

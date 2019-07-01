@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot will all data passed in correctly 1`] = `
+<section
+  className="cohort"
+>
+  <Person
+    id={1}
+    key="1"
+    name="Emily"
+    photo="https://placekitten.com/200/300"
+    quote="Quote"
+    superlative="Superlative"
+  />
+  <Person
+    id={2}
+    key="2"
+    name="Jasper"
+    photo="https://placekitten.com/200/300"
+    quote="Quote"
+    superlative="Superlative"
+  />
+</section>
+`;

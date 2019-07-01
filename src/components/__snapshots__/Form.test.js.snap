@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should match the snapshot with all data passed in correctly 1`] = `
+<div
+  className="form"
+>
+  <form>
+    <div
+      className="form-fields"
+    >
+      <h3
+        className="form-key"
+      >
+        Student Name: 
+      </h3>
+      <input
+        name="name"
+        onChange={[Function]}
+        placeholder="Student Name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-fields"
+    >
+      <h3
+        className="form-key"
+      >
+        Student Quote: 
+      </h3>
+      <input
+        name="quote"
+        onChange={[Function]}
+        placeholder="Quote"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-fields"
+    >
+      <h3
+        className="form-key"
+      >
+        Student Superlative: 
+      </h3>
+      <input
+        name="superlative"
+        onChange={[Function]}
+        placeholder="Superlative"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-fields"
+    >
+      <h3
+        className="form-key"
+      >
+        Add a photo: 
+      </h3>
+      <input
+        className="photo-input"
+        name="photo"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+    <br />
+    <div
+      className="form-fields"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
